@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Dairy\Content.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dairy\Name.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Main\Create.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Main\Language.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Main\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Selection\Cprogram.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Selection\Csharp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Selection\Html.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Selection\Java.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Dairy\Content.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dairy\Name.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Main\Create.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Main\Language.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Main\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Selection\Cprogram.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Selection\Csharp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Selection\Html.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Selection\Java.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
